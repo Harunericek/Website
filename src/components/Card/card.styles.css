@@ -1,0 +1,60 @@
+.materialUIStyle {
+  color: white;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+.materialUIStyleHover {
+  color: white;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.imgPositionAndStyleStatic1 {
+  width: 500px;
+  margin-top: 60px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleOnHover1 {
+  width: 400px;
+  margin-top: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleStatic2 {
+  width: 600px;
+  margin-top: 60px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleOnHover2 {
+  width: 600px;
+  margin-top: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleStaticMobile1 {
+  width: 400px;
+  margin-top: -80px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleOnHoverMobile1 {
+  width: 400px;
+  margin-top: -100px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleStaticMobile2 {
+  width: 500px;
+  margin-top: 60px;
+  transition: 0.3s ease-in-out;
+}
+
+.imgPositionAndStyleOnHoverMobile2 {
+  width: 500px;
+  margin-top: 40px;
+  transition: 0.3s ease-in-out;
+}

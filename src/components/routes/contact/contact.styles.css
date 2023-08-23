@@ -1,0 +1,171 @@
+label {
+  text-align: left;
+  font-family: "Chewy", cursive;
+  font-size: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.titleDesktop {
+  color: rgb(143, 106, 255);
+  font-size: 125px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1000px;
+}
+
+.titleMobile {
+  color: rgb(143, 106, 255);
+  font-size: 50px;
+  align-self: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 450px;
+}
+
+.mainSectionMobile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+}
+
+.mainSectionDesktop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+}
+
+.imgCardDesktop {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 384px;
+}
+
+.imgCardMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 500px;
+  width: 384px;
+}
+
+.imgDesktop {
+  border-top-left-radius: 175px;
+  border-top-right-radius: 175px;
+  height: 350px;
+  width: 350px;
+  border: solid 2px;
+}
+
+.imgMobile {
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  height: 350px;
+  width: 350px;
+  border: solid 2px;
+}
+
+.imgCardBottom {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 350px;
+  height: 75px;
+  background-color: rgb(153, 20, 194);
+  border: solid 2px;
+  border-color: black;
+}
+
+.imgCardBottomTitle {
+  font-size: 25px;
+}
+
+.subtitleMobile {
+  color: rgb(131, 90, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -40px;
+  width: 350px;
+}
+
+.subtitleDesktop {
+  color: rgb(131, 90, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -45px;
+  text-align: left;
+  width: 550px;
+}
+
+.inputContainerMobil {
+  background-color: rgb(145, 119, 206, 0.7);
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  border-radius: 20px;
+  width: 300px;
+  padding: 40px;
+}
+
+.wordInputMobil {
+  height: 30px;
+  width: 290px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.textInputMobil {
+  border-radius: 5px;
+  font-size: 20pt;
+}
+
+.inputContainerDesktop {
+  background-color: rgb(145, 119, 206, 0.7);
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  border-radius: 20px;
+  width: 700px;
+  padding: 40px;
+}
+
+.wordInputDesktop {
+  height: 30px;
+  width: 700px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.textInputDesktop {
+  border-radius: 5px;
+  font-size: 20pt;
+}
+
+.messageButton {
+  font-family: "Chewy", cursive;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+  height: 60px;
+  width: 230px;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}

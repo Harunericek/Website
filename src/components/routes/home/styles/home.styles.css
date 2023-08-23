@@ -1,0 +1,89 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.titleDesktop {
+  color: rgb(143, 106, 255);
+  font-size: 150px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.titleMobile {
+  color: rgb(143, 106, 255);
+  font-size: 50px;
+  align-self: center;
+  font-weight: bold;
+  width: 450px;
+}
+
+.card-container {
+  width: 1350px;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.card-container-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.card-square-mobile1 {
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 50px;
+  height: 350px;
+  max-width: 350px;
+  background-color: rgb(91, 44, 179);
+}
+
+.card-square-mobile2 {
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(153, 20, 194);
+}
+
+.card-square {
+  overflow: hidden;
+  border-radius: 50px;
+  height: 450px;
+  width: 500px;
+  background-color: rgb(91, 44, 179);
+}
+
+.card-rectangle {
+  overflow: hidden;
+  border-radius: 50px;
+  height: 450px;
+  width: 800px;
+  background-color: rgb(153, 20, 194);
+}
+
+.subtitle-mobile {
+  font-family: "Chewy", cursive;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  width: 350px;
+  color: rgb(159, 128, 255);
+}
+
+.subtitle-desktop {
+  font-family: "Chewy", cursive;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  color: rgb(159, 128, 255);
+}

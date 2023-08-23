@@ -1,0 +1,33 @@
+.nav-anima-container {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  font-family: "Chewy", cursive;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-size: 24px;
+}
+
+.nav-anima {
+  text-align: center;
+  width: 115px;
+  border-radius: 30px;
+  background-color: rgba(133, 111, 231, 0.301);
+}
+
+.navbar-item1 {
+  color: black;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.navbar-item2 {
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+}

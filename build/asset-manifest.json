@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4208d2a.css",
+    "main.js": "/static/js/main.77754d30.js",
+    "static/media/macbook.png": "/static/media/macbook.c022cbd0c4dec426888e.png",
+    "static/media/iphone.png": "/static/media/iphone.387108bca5c80e46d013.png",
+    "index.html": "/index.html",
+    "main.e4208d2a.css.map": "/static/css/main.e4208d2a.css.map",
+    "main.77754d30.js.map": "/static/js/main.77754d30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4208d2a.css",
+    "static/js/main.77754d30.js"
+  ]
+}

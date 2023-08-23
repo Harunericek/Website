@@ -1,0 +1,46 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.footer-item {
+  margin: 0 30px 0 30px;
+  color: rgb(145, 119, 206, 0.5);
+}
+
+.footer-item:hover {
+  color: rgb(145, 119, 206, 1);
+}
+
+.copyright {
+  font-family: "Chewy", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container-Desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+.footer-item-Desktop {
+  display: flex;
+  font-family: "Chewy", cursive;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(145, 119, 206, 0.7);
+}
+
+.footer-item-Desktop:hover {
+  color: rgb(145, 119, 206, 1);
+}
+
+a {
+  text-decoration: none;
+}
