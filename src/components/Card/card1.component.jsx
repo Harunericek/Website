@@ -9,8 +9,6 @@ const Card1 = (props) => {
   const [state, setState] = useState(false);
 
   const changeImgPos = (state) => {
-    props.changeOnOver = props.state;
-    props.changeOnOut = props.state;
     setState((prevValue) => {
       return !prevValue;
     });
