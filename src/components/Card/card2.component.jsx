@@ -8,12 +8,12 @@ const Card1 = (props) => {
   const [state, setState] = useState(false);
 
   const changeImgPos = (state) => {
-    props.changeOnOver = props.state;
-    props.changeOnOut = props.state;
     setState((prevValue) => {
       return !prevValue;
     });
   };
+
+  console.log(state);
 
   const isLaptop = useMediaQuery({ query: "(min-width: 577px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
@@ -30,7 +30,7 @@ const Card1 = (props) => {
                 scale: "6",
                 rotate: "20deg",
                 position: "absolute",
-                left: "50"
+                left: "50",
               }}
             />
             <ArrowRightAltIcon
@@ -38,7 +38,7 @@ const Card1 = (props) => {
                 scale: "8",
                 position: "absolute",
                 left: "810",
-                top: "200"
+                top: "200",
               }}
             />
           </div>
@@ -56,7 +56,7 @@ const Card1 = (props) => {
                 fontSize: "40px",
                 fontFamily: "Chewy",
                 color: "white",
-                marginTop: "-50px"
+                marginTop: "-50px",
               }}
             >
               Responsive across devices
@@ -77,7 +77,7 @@ const Card1 = (props) => {
           <div
             style={{
               marginTop: "140px",
-              marginLeft: "-20px"
+              marginLeft: "-20px",
             }}
           >
             <img
